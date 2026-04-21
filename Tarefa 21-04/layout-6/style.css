@@ -1,0 +1,141 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+    height: 70px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+}
+
+header .logo {
+    width: 90px;
+    height: 100%;
+    border: 3px solid blue;
+}
+
+header .busca {
+    width: 360px;
+    height: 100%;
+    border: 3px solid black;
+}
+
+header .menu1,
+header .menu2,
+header .menu3,
+header .menu4,
+header .menu5 {
+    height: 100%;
+    border: 3px solid black;
+}
+
+header .menu1 {
+    width: 90px;
+}
+
+header .menu2 {
+    width: 90px;
+}
+
+header .menu3 {
+    width: 120px;
+}
+
+header .menu4 {
+    width: 100px;
+}
+
+header .menu5 {
+    width: 70px;
+}
+
+header .signup {
+    width: 90px;
+    height: 100%;
+    border: 3px solid black;
+    margin-left: auto;
+}
+
+header .login {
+    width: 90px;
+    height: 100%;
+    border: 3px solid blue;
+}
+
+/* NAV */
+
+nav {
+    width: 100%;
+    height: 70px;
+    border: 3px solid black;
+    display: flex;
+    align-items: center;
+}
+
+nav .popular {
+    width: 90px;
+    height: 100%;
+    border: 3px solid black;
+}
+
+nav .categorias {
+    display: flex;
+    margin: 0 auto;
+    gap: 5px;
+}
+
+nav .categorias div {
+    width: 90px;
+    height: 50px;
+    border: 3px solid black;
+}
+
+nav .filtros {
+    width: 90px;
+    height: 100%;
+    border: 3px solid black;
+}
+
+/* MAIN */
+
+main {
+    width: 100%;
+    min-height: calc(100vh - 140px);
+    border: 3px solid black;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+main .card {
+    width: 23.5%;
+    height: 260px;
+    border: 3px solid gray;
+    display: flex;
+    flex-direction: column;
+}
+
+.card .imagem {
+    width: 100%;
+    height: 210px;
+    border: 3px solid blue;
+}
+
+.card .info {
+    width: 100%;
+    height: 50px;
+    border: 3px solid black;
+}

@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+}
+
+header {
+  height: 70px;
+  border: 3px solid black;
+  display: flex;
+  align-items: center;
+}
+
+header .logo {
+  width: 60px;
+  height: 100%;
+  border: 3px solid blue;
+}
+
+header .menu1 {
+  width: 130px;
+  height: 100%;
+  border: 3px solid black;
+}
+
+header .menu2 {
+  width: 130px;
+  height: 100%;
+  border: 3px solid black;
+}
+
+header .menu3 {
+  width: 150px;
+  height: 100%;
+  border: 3px solid black;
+}
+
+header .menu4 {
+  width: 130px;
+  height: 100%;
+  border: 3px solid black;
+}
+
+header .menu5 {
+  width: 100px;
+  height: 100%;
+  border: 3px solid black;
+}
+
+header .busca {
+  width: 60px;
+  height: 100%;
+  border: 3px solid black;
+  margin-left: auto;
+}
+
+header .entrar {
+  width: 90px;
+  height: 100%;
+  border: 3px solid black;
+}
+
+header .botao-conta {
+  width: 170px;
+  height: 100%;
+  border: 3px solid blue;
+}
+
+main {
+  border: 3px solid black;
+  height: calc(100vh - 70px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+main .titulo {
+  width: 75%;
+  height: 220px;
+  border: 3px solid black;
+  margin-top: 60px;
+}
+
+main .texto {
+  width: 50%;
+  height: 100px;
+  border: 3px solid black;
+  margin-top: 30px;
+}
+
+main .acoes {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  margin-top: 40px;
+}
+
+.acoes .email {
+  flex: 1;
+  height: 100%;
+  border: 3px solid black;
+}
+
+.acoes .cadastro {
+  flex: 1;
+  height: 100%;
+  border: 3px solid green;
+  margin-right: 0px;
+}
+
+.acoes .copilot {
+  flex: 1;
+  height: 100%;
+  border: 3px solid black;
+  margin-left: 20px;
+}

@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: auto;
+  height: 60px;
+  border: 3px solid black;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header .logo {
+  border: 3px solid blue;
+  height: 100%;
+  width: 60px;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header .titulo {
+  border: 3px solid black;
+  box-sizing: border-box;
+  height: 100%;
+  width: 60px;
+}
+header .clique1 {
+  border: 3px solid black;
+  box-sizing: border-box;
+  height: 100%;
+  width: 180px;
+  margin-left: auto;
+}
+header .clique2 {
+  border: 3px solid black;
+  box-sizing: border-box;
+  height: 100%;
+  width: 60px;
+  margin: 0;
+}
+header .clique3 {
+  border: 3px solid black;
+  box-sizing: border-box;
+  height: 100%;
+  width: 60px;
+  margin: 0;
+}
+header .clique4 {
+  border: 3px solid black;
+  box-sizing: border-box;
+  height: 100%;
+  width: 60px;
+  margin: 0;
+}
+header .botao {
+  border: 3px solid blue;
+  box-sizing: border-box;
+  height: 100%;
+  width: 150px;
+  margin: 0;
+}
+main {
+  border: 3px solid black;
+  display: flex;
+  height: calc(100vh - 80px);
+  display: flex;
+}
+main .esquerda {
+  flex: 1;
+  border: 3px solid gray;
+}
+
+main .direita {
+  flex: 1;
+  border: 3px solid black;
+}
+
+.esquerda .texto1 {
+  border: 3px solid black;
+  height: 240px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.esquerda .texto2 {
+  border: 3px solid black;
+  height: 220px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.esquerda .botao {
+  border: 3px solid blue;
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.esquerda .texto3 {
+  border: 3px solid black;
+  height: 46px;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
